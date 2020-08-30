@@ -2,7 +2,7 @@
 ## where their coressponding inverse can be cached i.e. stored and retrieved
 
 ## This function creates a list of functions that is used to store
-and obtain a matrix and its corresponding inverse
+## and obtain a matrix and its corresponding inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL #storage for inverse of x
